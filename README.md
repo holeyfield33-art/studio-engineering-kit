@@ -13,6 +13,7 @@ The public core guidance is available in this repository:
 - [AGENTS.md](AGENTS.md) — primary reusable instructions
 - [PRACTICES.md](PRACTICES.md) — short list of relevant engineering practices and when to omit them
 - [examples/verification-examples.md](examples/verification-examples.md) — three illustrative verification patterns
+- [examples/before-after.md](examples/before-after.md) — concrete before-and-after illustrations of ordinary vs kit-guided behavior
 - [BOUNDARIES.md](BOUNDARIES.md) — scope and evidence limitations
 
 **Start here:** [Install it in Lovable, Bolt, Cursor or Claude Code](docs/PLATFORM_SETUP.md).
