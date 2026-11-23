@@ -28,3 +28,10 @@ Kit-guided agent should:
 - Note any NOT_RUN checks instead of claiming a pass.
 
 These are proportional checks, not a full audit. For fuller before/after illustrations of ordinary vs kit-guided behavior, see [before-after.md](before-after.md).
+
+
+## A documented Studio pilot (observed, not a before/after agent comparison)
+
+In [STUDIO-PILOT-002](https://github.com/holeyfield33-art/software-research-studio/blob/main/experiments/agent_b_scanplan/trials/STUDIO-PILOT-002/README.md), an offline CLI failed on an escaped unpaired Unicode surrogate. The report records a red test phase with 1 failure and 4 errors across 23 tests, then a narrowly scoped validation fix followed by **23/23 local tests passing**. A positive control preserved international/emoji inputs and unchanged demo output.
+
+**Limits:** This verifies a particular local code repair and regression check. The independent comparison arm was `NOT_RUN`, canonical host acceptance was `NOT_RUN`, and release remained `HOLD`. It **does not** show that buyers' coding agents improve after installing this kit. The [comparison protocol](https://github.com/holeyfield33-art/software-research-studio/blob/main/experiments/agent_b_scanplan/trials/STUDIO-PILOT-002/COMPARISON_PROTOCOL.md) remains unexecuted.
