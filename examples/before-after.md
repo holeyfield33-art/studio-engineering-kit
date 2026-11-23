@@ -1,6 +1,6 @@
 # Before and after examples
 
-These are **hypothetical response comparisons** illustrating the engineering considerations Studio's instructions ask an agent to address. They are not transcripts from actual models. They are **not** measured performance results, observed production outcomes, or guarantees that any particular model will behave this way. They show the kind of omissions and checks the instructions ask the agent to notice.
+These are **hypothetical response comparisons** illustrating the engineering considerations Studio's instructions ask an agent to address. They are not transcripts from actual models, measured performance results, observed production outcomes, or guarantees that any particular model will behave this way. They show the kind of omissions and checks the instructions ask the agent to notice.
 
 Use them as reference when evaluating whether the guidance loaded, or as follow-up prompts ("apply the same checks you see in the kit examples").
 
@@ -67,14 +67,14 @@ The agent is guided to add proportional verification:
 
 **User request:** "Fix this bug without breaking the rest of the app."
 
-### Without the kit
+### Illustrative incomplete response (not observed)
 
 An incomplete hypothetical response might:
-- Locates a likely cause and patches it
-- May or may not run existing tests
-- Reports "fixed" without distinguishing what was actually executed
+- Locate a likely cause and patch it
+- Skip or leave existing tests unverified
+- Report "fixed" without distinguishing what was actually executed
 
-### With the kit
+### Illustrative kit-guided response (desired, not observed)
 
 The agent is instructed to:
 - Identify the relevant existing tests before changing code
