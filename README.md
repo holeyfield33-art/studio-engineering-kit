@@ -1,42 +1,45 @@
 # Studio Engineering Kit
 
-**Black Friday 2026 special: $9.99** (normally $29)
+**Real engineering knowledge for AI coding agents.**
 
-Real engineering knowledge for AI coding agents. Drop it into Lovable, Bolt, Cursor, Claude Code, or any agent that accepts custom instructions.
+Equip an AI coding agent with concise engineering guidance to notice overlooked requirements, consider important failure paths, keep changes surgical, and report what was actually verified. **Not an autonomous engineering system or a replacement for experienced review.**
 
-## What this is
+## Choose your starting point
 
-A small, reusable, agent-readable package that helps coding agents recognize missing requirements, choose only relevant practices, and verify critical boundaries — without forcing an enterprise architecture.
+### Free: agent instructions
 
-It is **not**:
-- A generic SDLC PDF
-- An autonomous engineering intelligence system
-- A claim of measured performance improvement
-- Dependent on the Studio kernel or the 003R selector (which remains NO-GO)
+The public core guidance is available in this repository:
 
-## How to use (Lovable, Bolt, Cursor, etc.)
+- [AGENTS.md](AGENTS.md) — primary reusable instructions
+- [PRACTICES.md](PRACTICES.md) — short list of relevant engineering practices and when to omit them
+- [examples/verification-examples.md](examples/verification-examples.md) — three illustrative verification patterns
+- [BOUNDARIES.md](BOUNDARIES.md) — scope and evidence limitations
 
-1. Open the primary instruction file: [`AGENTS.md`](AGENTS.md)
-2. Paste its contents into your platform’s custom instructions / system prompt / project rules.
-3. Optionally append the short practices list from [`PRACTICES.md`](PRACTICES.md).
-4. Ask for the app or change you want. The agent now has the judgment layer.
+**Start here:** [Install it in Lovable, Bolt, Cursor or Claude Code](docs/PLATFORM_SETUP.md).
 
-## Contents
+### $9.99: Black Friday Launch Edition — paid repository starter
 
-| File | Purpose |
-|------|---------|
-| `AGENTS.md` | Primary agent instruction (paste this) |
-| `PRACTICES.md` | Short curated practices with when-to-use / when-to-omit notes |
-| `BOUNDARIES.md` | Honest scope and evidence limits |
-| `examples/` | Short verification examples |
+The paid ZIP includes the free core plus seven additional resources: a practical repository document map, optional STATUS / SDLC / PRODUCT templates, a guarded repository setup prompt, an extra platform guide, and a start-here walkthrough.
 
-## Two ways to use Studio knowledge
+**Checkout is not yet live.** The payment link will appear here only after a real checkout and digital delivery have been verified. The $9.99 price is an introductory offer, not a discount from a proven former sale price.
 
-- **This kit ($9.99 Black Friday special)**: Self-service. Equip your agent.
-- **Ship-Ready Audit ($99)**: Human-guided application of the same knowledge to your existing project.
+[Why a practical SDLC matters to vibe-coded apps](docs/SDLC_FOR_VIBE_CODERS.md)
 
-Source of the guidance: Software Research Studio research and agent-facing docs (2026-11-01). Packaged for reuse without kernel changes.
+### $99: Ship-Ready Audit (separate service)
 
----
+For builders who prefer a human review: a bounded, evidence-backed engineering assessment of **one** repository or project export, with prioritized Keep / Fix / Rebuild guidance. This is **not** a penetration test, certification, security guarantee or automatic repair. Live testing requires separate written authorization. Availability and scope require confirmation; no checkout is currently linked.
 
-Built by Aletheia Sovereign Systems. Engineering knowledge, not hours.
+## How the free instructions work
+
+1. Read the [platform-specific setup](docs/PLATFORM_SETUP.md).
+2. Check your target app's existing instructions. **Do not blindly overwrite** `AGENTS.md`, `CLAUDE.md` or project rules.
+3. Merge compatible Studio guidance or paste it into a supported project-instructions field.
+4. Ask the agent for one focused change. Review relevant positive and negative tests and actual results.
+
+Lovable, Bolt, Cursor and Claude Code accept persistent project guidance through **different** routes. Installing guidance does not give a model new permissions, run tests for you or guarantee a correct result.
+
+## Evidence and provenance
+
+Adapted from Software Research Studio's agent-facing material as of 2026-11-01. The Studio kernel is not included or required. The unreliable `003R` novel-input selector is **NO-GO** and is not used. Independent, controlled measurement of the kit's effectiveness is not complete. Source: [Software Research Studio](https://github.com/holeyfield33-art/software-research-studio).
+
+Built by **Aletheia Sovereign Systems**. Clear engineering decisions, not compulsory paperwork.
